@@ -1,0 +1,233 @@
+@charset "utf-8";
+
+html, body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 40px;
+    background-color:#3c454f;
+    border: none;
+    padding:0px;
+    z-index:10;
+}
+
+#mainContainer {
+    display: block;
+    position:absolute;
+    height:auto;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
+    margin-top:40px;
+    margin-bottom:40px;
+    margin-right:0px;
+    margin-left:0px;
+    border: none;
+}
+
+#menu {
+    height:100%;
+    margin:0px;
+    width:200px;
+    background-color: #60ABCD;
+    padding:0px;
+    border: none;
+}
+
+.menuItem {
+    margin:0px;
+    width:190px; /*200px - 2*padding*/
+    padding:5px;
+    color:#FFF;
+    height:44px;
+    cursor:pointer;
+    border: none;
+}
+.menuItem img{
+    margin-top:3px;
+    height:35px;
+}
+
+.menuItem:hover {
+    background-color: #7cc1dd;
+}
+.menuItem div:first-child {
+    float:left;
+}
+.menuItem div:last-child {
+    float:left;
+    font-size:20px;
+    padding-left:10px;
+    padding-top: 8px;
+}
+
+.menuItemSelected {
+    background-color:#FFF !important;
+    color:#000 !important;
+}
+
+#subMenu {
+    height:100%;
+    margin:0px;
+    width:0px;
+    background-color: #2D99C4;
+    padding:0px;
+    border: none;
+    position: absolute;
+    top:0px;
+    left:200px;
+}
+
+#subMenu2 {
+    height:100%;
+    margin:0px;
+    width:0px;
+    background-color: #2D99C4;
+    padding:0px;
+    border: none;
+    position: absolute;
+    top:0px;
+    left:200px;
+}
+.subMenuItem {
+    margin:0px;
+    width:145px; /*155px - 2*padding*/
+    padding:5px;
+    color:#FFF;
+    height:30px;
+    cursor:pointer;
+    border: none;
+}
+.subMenuItem img{
+    margin-top:3px;
+    height:35px;
+}
+
+.subMenuItem:hover {
+    background-color: #7cc1dd;
+}
+.subMenuItem div:first-child {
+    float:left;
+}
+.subMenuItem div:last-child {
+    float:left;
+    font-size:13px;
+    padding-left:10px;
+    padding-top: 4px;
+}
+
+
+.menuBack {
+    margin:10px;
+    opacity: 0.7;
+    cursor:pointer;
+    overflow:hidden;
+    height:30px;
+}
+
+.menuBack_img {
+    height: 30px;
+    vertical-align:middle;
+}
+
+.menuBack_txt {
+    margin: 0px 0px 0px 10px;
+    color: #EEE;
+    font-size: 14px;
+    width: 90px;
+    display:inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#content {
+    display: block;
+    position:absolute;
+    height:auto;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-right:0px;
+    margin-left:200px;
+    background-color:#FFF;
+    border: none;
+    padding:15px;
+    overflow: scroll;
+}
+
+
+#footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 40px;
+    background-color:#3c454f;
+    border: none;
+    z-index:10;
+}
+
+a.link {
+    text-decoration: none;
+}
+
+#logoutLink {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+#logoutImg {
+    vertical-align: bottom;
+    width: 15px;
+    margin-right: 5px;
+    text-decoration: none;
+    border:none;
+}
+
+
+
+.table_row:hover td{
+    background-color:#60ABCD;
+}
+
+.legend_table {
+    padding:5px;
+    border:1px solid #999;
+    border-radius:5px;
+    width:125px;
+    text-align:center;
+}
+
+.legend_table2 {
+    padding:5px;
+    border:1px solid #999;
+    border-radius:5px;
+    width:200px;
+    text-align:center;
+}
+
+.info_icon {
+    height: 17px;
+    position: relative;
+    top: 2px;
+}
+
+
